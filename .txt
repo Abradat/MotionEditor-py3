@@ -1,0 +1,28 @@
+// Stage 0
+for(int i = 0; i <= 0 ; i++)
+{
+	L_Leg_Ik[I_X] = 0.0;
+	L_Leg_Ik[I_Y] = 0.0;
+	L_Leg_Ik[I_Z] = 0.0;
+	L_Leg_Ik[I_Roll] = 0.0;
+	L_Leg_Ik[I_Pitch] = 0.0;
+	L_Leg_Ik[I_Yaw] = 0.0;
+	R_Leg_Ik[I_X] = 0.0;
+	R_Leg_Ik[I_Y] = 0.0;
+	R_Leg_Ik[I_Z] = 0.0;
+	R_Leg_Ik[I_Roll] = 0.0;
+	R_Leg_Ik[I_Pitch] = 0.0;
+	R_Leg_Ik[I_Yaw] = 0.0;
+	L_Arm[I_A_Pitch] = 0.0;
+	L_Arm[I_A_Roll] = 0.0;
+	L_Arm[I_A_Elbow] = 0.0;
+	L_Arm[I_A_Vp] = 0.0;
+	L_Arm[I_A_Vr] = 0.0;
+	L_Arm[I_A_Ve] = 0.0;
+	R_Arm[I_A_Pitch] = 0.0;
+	R_Arm[I_A_Roll] = 0.0;
+	R_Arm[I_A_Elbow] = 0.0;
+	R_Arm[I_A_Vp] = 0.0;
+	R_Arm[I_A_Vr] = 0.0;
+	R_Arm[I_A_Ve] = 0.0;
+}

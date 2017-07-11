@@ -1,0 +1,33 @@
+//Stage 25
+for(int i = 0; i <= 50 ; i++)
+{
+	L_Leg_Ik[I_X] = 1.0;
+	L_Leg_Ik[I_Y] = 2.0;
+	L_Leg_Ik[I_Z] = 3.0;
+	L_Leg_Ik[I_Roll] = 4.0;
+	L_Leg_Ik[I_Pitch] = 5.0;
+	L_Leg_Ik[I_Yaw] = 6.0;
+
+	R_Leg_Ik[I_X] = 7.0;
+	R_Leg_Ik[I_Y] = 8.0;
+	R_Leg_Ik[I_Z] = 9.0;
+	R_Leg_Ik[I_Roll] = 1.0;
+	R_Leg_Ik[I_Pitch] = 2.0;
+	R_Leg_Ik[I_Yaw] = 3.0;
+
+	L_Arm[I_A_Pitch] = 4.0;
+	L_Arm[I_A_Roll] = 5.0;
+	L_Arm[I_A_Elbow] = 6.0;
+	L_Arm[I_A_Vp] = 7.0;
+	L_Arm[I_A_Vr] = 8.0;
+	L_Arm[I_A_Ve] = 9.0;
+
+	R_Arm[I_A_Pitch] = 1.0;
+	R_Arm[I_A_Roll] = 2.0;
+	R_Arm[I_A_Elbow] = 3.0;
+	R_Arm[I_A_Vp] = 4.0;
+	R_Arm[I_A_Vr] = 5.0;
+	R_Arm[I_A_Ve] = 6.0;
+	Update_Ik(1, 1, R_Leg_Ik, L_Leg_Ik, R_Arm, L_Arm);
+	vTaskDelay(10);
+}
